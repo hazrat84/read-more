@@ -1,0 +1,9 @@
+.more-less {
+    display: block;
+    a { 
+        font-size: $secondary-font-size;
+        color: $secondary-text-color;
+        text-decoration: underline; 
+        &:hover { text-decoration: none;  }
+    }
+}
