@@ -35,4 +35,6 @@ export class AppModule { }
 
 Bug fixes and features are welcomed.
 
+Here is the link for module [ng-readmore](https://www.npmjs.com/package/ng-readmore) 
+
 
