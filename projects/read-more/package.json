@@ -4,5 +4,21 @@
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hazrat84/read-more.git"
+  },
+  "author": {
+    "name": "Hazrat Ali Khan",
+    "url": "https://github.com/hazrat84"
+  },
+  "keywords": [
+    "ng8",
+    "Angular",
+    "read-more",
+    "read more",
+    "text compress"
+  ],
+  "license": "MIT"
 }
