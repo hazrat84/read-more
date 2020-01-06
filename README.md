@@ -11,23 +11,23 @@ This is an angular module that will help reduce text to smaller version and will
 npm install ng-readmore --save
 
 ## Usage
-
-import { ReadMoreComponent } from 'ng-readmore';
+```typescript
+import { ReadMoreModule } from 'ng-readmore';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ReadMoreComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReadMoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
+```
 
 
 
