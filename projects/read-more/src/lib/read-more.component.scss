@@ -1,9 +1,9 @@
-.more-less {
-    display: block;
-    a { 
-        font-size: $secondary-font-size;
-        color: $secondary-text-color;
-        text-decoration: underline; 
-        &:hover { text-decoration: none;  }
-    }
+a { 
+    background: transparent;
+    font-weight: normal;
+    color: #4688f1;
+    text-decoration: none;
+    position: absolute;
+    font-size: 0.875rem;
+    &:hover { text-decoration: none;  }
 }
