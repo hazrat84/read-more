@@ -1,0 +1,8 @@
+<p class='break-wrap mb0' style='white-space: pre-wrap;' [hidden]='fullText' [innerHTML]='rmTextShort'></p>
+<p class='break-wrap mb5' style='white-space: pre-wrap' [hidden]='!fullText' [innerHTML]='rmTextFull'></p>
+<p class='mb0'>
+    <small>
+        <a href='javascript:;' class='text-primary' (click)='readMore(true)' [hidden]='!showMore'>{{'read more'}}</a>
+        <a href='javascript:;' (click)='readMore(false)' class='text-primary' [hidden]='!showLess'>{{'read less'}}</a>
+    </small>
+</p>
