@@ -29,7 +29,11 @@ import { ReadMoreModule } from 'ng-readmore';
 export class AppModule { }
 ```
 
-
+app.component.html
+```html
+<app-read-more [text]="text" [maxLength]="40"></app-read-more>
+```
+By default it will reduce the string to 30 words if user does not pass the maxLength
 
 ## Contribution
 
