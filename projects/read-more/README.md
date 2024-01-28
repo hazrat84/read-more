@@ -1,24 +1,40 @@
 # ReadMore
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12 and Node Version is v18.10.0.
 
-## Code scaffolding
+## Intro
 
-Run `ng generate component component-name --project read-more` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project read-more`.
-> Note: Don't forget to add `--project read-more` or else it will be added to the default project in your `angular.json` file. 
+This is an angular module that will help reduce text to smaller version and will show read more/less option after that
 
-## Build
+## Installation
 
-Run `ng build read-more` to build the project. The build artifacts will be stored in the `dist/` directory.
+npm install ng-readmore --save
 
-## Publishing
+## Usage
+```typescript
+import { ReadMoreModule } from 'ng-readmore';
 
-After building your library with `ng build read-more`, go to the dist folder `cd dist/read-more` and run `npm publish`.
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ReadMoreModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
 
-## Running unit tests
 
-Run `ng test read-more` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Further help
+## Contribution
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Bug fixes and features are welcomed.
+
+Here is the link for module [ng-readmore](https://www.npmjs.com/package/ng-readmore) 
+
+

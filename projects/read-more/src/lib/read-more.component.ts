@@ -6,18 +6,18 @@ import { Component, Input, OnChanges } from '@angular/core';
   styleUrls: ['./read-more.component.scss']
 })
 export class ReadMoreComponent implements OnChanges {
-    @Input() text: string = "";
+    @Input() text = "";
     @Input() maxLength = 30;
     fullText = true;
     showMore = false;
     showLess = false;
     rmTextShort = '';
     rmTextFull = '';
-    inputWords = new Array();
+    inputWords = new Array;
     constructor() {
     }
 
-    readMore(flag: string) {
+    readMore(flag: boolean) {
         if (flag) {
             this.showMore = false;
             this.fullText = true;
